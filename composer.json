@@ -1,0 +1,21 @@
+{
+    "name": "xuh/wx-pay",
+    "description": "just for wx pay",
+    "type": "libary",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yangyang",
+            "email": "wudi_xh@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload":{
+        "psr-4": {
+            "wxPay": "src/wxPay/"
+        }
+    }
+}
