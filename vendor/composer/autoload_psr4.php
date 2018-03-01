@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'wxPay' => array($baseDir . '/src/wxPay'),
+    'wxPay\\' => array($baseDir . '/src/wxPay'),
 );
