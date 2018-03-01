@@ -15,7 +15,7 @@
     },
     "autoload":{
         "psr-4": {
-            "wxPay": "src/wxPay/"
+            "wxPay\\": "src/wxPay/"
         }
     }
 }
